@@ -1,0 +1,296 @@
+[
+        {
+                "numb": 1,
+                "question": "Stand-alone systems that are produced by a development organization and sold on the open market to any customer who is able to buy them are called :?",
+                "answer": "Generic products",
+                "options": [
+                        "Customer products",
+                        "Generic products",
+                        "Bespoke products",
+                        "None of the above"
+                ]
+        },
+        {
+                "numb": 2,
+                "question": " Software dependability includs a range of characteristics including : ?",
+                "answer": "reliability",
+                "options": [
+                        " maintainability ",
+                        " Effeciency ",
+                        "reliability"
+                ]
+        },
+        {
+                "numb": 3,
+                "question": " System design and implementation are intended to show that a system conforms to its specifcation and meets the requerments of system customer ?",
+                "answer": " False ",
+                "options": [
+                        " True ",
+                        " False "
+                ]
+        },
+        {
+                "numb": 4,
+                "question": " __________ is an example of generic software products ?",
+                "answer": " Graphics programs ",
+                "options": [
+                        " Graphics programs ",
+                        " Embedded control ",
+                        " Traffic monitoring system "
+                ]
+        },
+        {
+                "numb": 5,
+                "question": " Agile processes are processes where all of the process activities are planned in advance ?",
+                "answer": " False ",
+                "options": [
+                        " True ",
+                        " False "
+                ]
+        },
+        {
+                "numb": 6,
+                "question": " Requairement elicitation is the process of deriving the system requairement through ?",
+                "answer": " All of the above ",
+                "options": [
+                        " Observing of existing system ",
+                        " Discssion whit potential users/customer ",
+                        " Task analysis ",
+                        " All of the above "
+                ]
+        },
+        {
+                "numb": 7,
+                "question": " The process of finding, analyzing, documenting, and checking services and constraint are called Requirements Engincering ?",
+                "answer": " True ",
+                "options": [
+                        " True ",
+                        " False "
+                ]
+        },
+        {
+                "numb": 8,
+                "question": " Software costs less to maintain than it does to develop ?",
+                "answer": " False ",
+                "options": [
+                        " True ",
+                        " False "
+                ]
+        },
+        {
+                "numb": 9,
+                "question": " Non-functional requirements may be more critical than functional requirements ?",
+                "answer": " True ",
+                "options": [
+                        " True ",
+                        " False "
+                ]
+        },
+        {
+                "numb": 10,
+                "question": "The spiral lifecycle model is always better than the outdated waterfall model. ?",
+                "answer": " False ",
+                "options": [
+                        " True ",
+                        " False "
+                ]
+        },
+        {
+                "numb": 11,
+                "question": " Including the users/customers in the process of designing the architecture will yield a better product ?",
+                "answer": " False ",
+                "options": [
+                        " True ",
+                        " False "
+                ]
+        },
+        {
+                "numb": 12,
+                "question": " Refactoring is a risk: it incurs a cost now, in return for potential payoff later. ?",
+                "answer": " True ",
+                "options": [
+                        " True ",
+                        " False "
+                ]
+        },
+        {
+                "numb": 13,
+                "question": " It is possible for a single ”piece”, or part of the original file, to appear multiple times in a piece table. ?",
+                "answer": " True ",
+                "options": [
+                        " True ",
+                        " False "
+                ]
+        },
+        {
+                "numb": 14,
+                "question": "When the writes to a data structure has spatial locality ( they are nearby one another in memory), then they can be made faster ?",
+                "answer": " True ",
+                "options": [
+                        " True ",
+                        " False "
+                ]
+        },
+        {
+                "numb": 15,
+                "question": "There exists datasets for which a hash table has O(n) performance for insertion, deletion, and searching – the same as for a linked list ?",
+                "answer": " True ",
+                "options": [
+                        " True ",
+                        " False "
+                ]
+        },
+        {
+                "numb": 16,
+                "question": "The map in MapReduce is different from the map in a functional programming language ?",
+                "answer": " True ",
+                "options": [
+                        " True ",
+                        " False "
+                ]
+        },
+        {
+                "numb": 17,
+                "question": "An advantage of a GUI is that it permits an experienced user to work faster ?",
+                "answer": " False ",
+                "options": [
+                        " True ",
+                        " False "
+                ]
+        },
+        {
+                "numb": 18,
+                "question": "It is theoretically possible for testing to prove the absence of bugs ?",
+                "answer": " True ",
+                "options": [
+                        " True ",
+                        " False "
+                ]
+        },
+        {
+                "numb": 19,
+                "question": "Recall that the null object pattern performs a no-op at each method call where null would otherwise be dereferenced. One advantage is that this is more efficient than checking, at each method invocation, whether the receiver ( the this object on which the method is being invoked) is null ?",
+                "answer": " False ",
+                "options": [
+                        " True ",
+                        " False "
+                ]
+        },
+        {
+                "numb": 20,
+                "question": "Design is one step in the process of software development, in which the requirements for building the software are gathered and analyzed in order to create an architectural model?",
+                "answer": " True ",
+                "options": [
+                        " True ",
+                        " False "
+                ]
+        },
+        {
+                "numb": 21,
+                "question": " According to Pressman, what is design ?",
+                "answer": "information driven",
+                "options": [
+                        "information driven",
+                        "coding driven",
+                        "architecture driven",
+                        "testing driven"
+                ]
+        },
+        {
+                "numb": 22,
+                "question": " Which of these are characteristics of a strong design ?",
+                "answer": "All of these",
+                "options": [
+                        "Low Coupling",
+                        "Modular",
+                        "High Cohesion",
+                        "All of these"
+                ]
+        },
+        {
+                "numb": 23,
+                "question": " The two levels of design for software architecture are ?",
+                "answer": "data design and architectural design",
+                "options": [
+                        "  coding design and architectural design",
+                        "data design and architectural design",
+                        "pattern design and data design",
+                        "architectural design and XP design "
+                ]
+        },
+        {
+                "numb": 24,
+                "question": "In software engineering, what does KDD stands for ?",
+                "answer": "Knowledge discovery in databases",
+                "options": [
+                        "Knowledge distortion of design",
+                        "Knowledge discovery in databases",
+                        "Knowledge development in design",
+                        "Knowledge detection of databases"
+                ]
+        },
+        {
+                "numb": 25,
+                "question": " Which of these is an example of an archetype ?",
+                "answer": "Node",
+                "options": [
+                        "Node",
+                        "Architecture style",
+                        "Actors",
+                        "All of these"
+                ]
+        },
+        {
+                "numb": 26,
+                "question": "In software engineering, what does ATAM stands for ?",
+                "answer": "Architecture trade-off analysis method ",
+                "options": [
+                        "Architecture type analysis management",
+                        "Architecture type analysis method",
+                        "Architecture trade-off analysis method",
+                        "Application texture architectural method"
+                ]
+        },
+        {
+                "numb": 27,
+                "question": " To check the complexity of an architecture, what could a programmer use ?",
+                "answer": "dependencies",
+                "options": [
+                        "dependencies",
+                        "architecture testing",
+                        "coupling",
+                        "beta testing"
+                ]
+        },
+        {
+                "numb": 28,
+                "question": "  What is the use of an Architectural Description Language (ADL) ?",
+                "answer": "provides syntax for describing a software architecture",
+                "options": [
+                        "provides syntax for describing a software architecture",
+                        "helps design the language in which the software should be built",
+                        "codes the architecture into desired programming language",
+                        "describes how to design the software in a specified language"
+                ]
+        },
+        {
+                "numb": 29,
+                "question": "When we think about software architecture, we should think of it as the same thing as the end product- functioning software ?",
+                "answer": "False",
+                "options": [
+                        "True",
+                        "False"
+                ]
+        },
+        {
+                "numb": 30,
+                "question": "Software engineers should not use their technical skills to misuse other people’s computers.”Here the term misuse refers to ?",
+                "answer": "All of the above",
+                "options": [
+                        "Unauthorized modification of computer material",
+                        "Unauthorized access to computer material",
+                        "Dissemination of viruses or other malware",
+                        "All of the above"
+                ]
+        }
+]

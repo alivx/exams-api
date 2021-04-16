@@ -1,0 +1,332 @@
+[
+    {
+        "numb": 1,
+        "question": "Which of the following is the correct syntax to add the header file in the C++ program?",
+        "answer": "Both A and B",
+        "options": [
+            "#include<userdefined>",
+            "#include userdefined.h",
+            "<include> userdefined.h",
+            "Both A and B"
+        ]
+    },
+    {
+        "numb": 2,
+        "question": "Which of the following is the correct identifier?",
+        "answer": "VAR_123",
+        "options": [
+            "$var_name",
+            "VAR_123",
+            "varname@",
+            "None of the above"
+        ]
+    },
+    {
+        "numb": 3,
+        "question": "Which of the following is the address operator?",
+        "answer": "&",
+        "options": [
+            "@",
+            "#",
+            "&",
+            "%"
+        ]
+    },
+    {
+        "numb": 4,
+        "question": "Which of the following features must be supported by any programming language to become a pure object-oriented programming language?",
+        "answer": "All of the above",
+        "options": [
+            "Encapsulation",
+            "Inheritance",
+            "Polymorphism",
+            "All of the above"
+        ]
+    },
+    {
+        "numb": 5,
+        "question": "The programming language that has the ability to create new data types is called___.",
+        "answer": "Extensible",
+        "options": [
+            "Overloaded",
+            "Extensible",
+            "Reprehensible",
+            "Encapsulated"
+        ]
+    },
+    {
+        "numb": 6,
+        "question": "Which of the following is the original creator of the C++ language?",
+        "answer": "Bjarne Stroustrup",
+        "options": [
+            "Dennis Ritchie",
+            "Ken Thompson",
+            "Bjarne Stroustrup",
+            "Brian Kernighan"
+        ]
+    },
+    {
+        "numb": 7,
+        "question": "The C++ language is ______ object-oriented language.",
+        "answer": "Semi Object-oriented or Partial Object-oriented",
+        "options": [
+            "Pure Object oriented",
+            "Semi Object-oriented or Partial Object-oriented",
+            "None of the above",
+            "Not Object oriented"
+        ]
+    },
+    {
+        "numb": 8,
+        "question": "Which of the following comment syntax is correct to create a single-line comment in the C++ program?",
+        "answer": "//Comment",
+        "options": [
+            "//Comment",
+            "/Comment/",
+            "Comment//",
+            "None of the above"
+        ]
+    },
+    {
+        "numb": 9,
+        "question": "C++ is a ___ type of language.",
+        "answer": "Middle-level language",
+        "options": [
+            "High-level Language",
+            "Low-level language",
+            "Middle-level language",
+            "None of the above"
+        ]
+    },
+    {
+        "numb": 10,
+        "question": "For inserting a new line in C++ program, which one of the following statements can be used?",
+        "answer": "\n",
+        "options": [
+            "\n",
+            "\r",
+            "(a+b)",
+            "None of the above"
+        ]
+    },
+    {
+        "numb": 11,
+        "question": "Which one of the following represents the tab?",
+        "answer": "\t",
+        "options": [
+            "\n",
+            "\t",
+            "\r",
+            "None of the above "
+        ]
+    },
+    {
+        "numb": 12,
+        "question": " Which of the following refers to characteristics of an array?",
+        "answer": "An array is a set of similar data items",
+        "options": [
+            "An array is a set of similar data items",
+            "An array is a set of distinct data items",
+            "An array can hold different types of datatypes",
+            "None of the above"
+        ]
+    },
+    {
+        "numb": 13,
+        "question": "If we stored five elements or data items in an array, what will be the index address or the index number of the array's last data item?",
+        "answer": "4",
+        "options": [
+            "3",
+            "5",
+            "4",
+            "88"
+        ]
+    },
+    {
+        "numb": 14,
+        "question": "Which of the following gives the 4th element of the array?",
+        "answer": "Array[3];",
+        "options": [
+            "Array[0];",
+            "Array[0];",
+            "Array[3];",
+            "None of the above"
+        ]
+    },
+    {
+        "numb": 15,
+        "question": "Which of the following is the correct syntax for declaring the array?",
+        "answer": "    ",
+        "options": [
+            "init array []",
+            "int array [5];",
+            "Array[5];",
+            "None of the above"
+        ]
+    },
+    {
+        "numb": 16,
+        "question": " Which type of memory is used by an Array in C++ programming language?",
+        "answer": "Contiguous",
+        "options": [
+            "Contiguous",
+            "None-contiguous",
+            "Both A and B",
+            "Not mentioned"
+        ]
+    },
+    {
+        "numb": 17,
+        "question": "Which of the following is the correct definition of sorting?",
+        "answer": "Sorting is a type of process in which the data or information is ordered into a specific order. Example increasing orders, decreasing.",
+        "options": [
+            "Sorting is a type of process in which the data or information is ordered into a specific order. Example increasing orders, decreasing.",
+            "Sorting information or data only in increasing order",
+            "Sorting is a type of process in which data elements are modified or manipulated",
+            "None of the above"
+        ]
+    },
+    {
+        "numb": 18,
+        "question": "How many types of the array are there in the C++ programming language?",
+        "answer": "In the C++ programming language, there are two types of arrays",
+        "options": [
+            "In the C++ programming language, there are three types of arrays",
+            "In the C++ programming language, there are four types of arrays",
+            "In the C++ programming language, there are two types of arrays",
+            "Both A and B"
+        ]
+    },
+    {
+        "numb": 19,
+        "question": "In C++, for what purpose the rank() is used?",
+        "answer": "It returns the dimension of the specified array",
+        "options": [
+            "It returns the maximum number of elements that can be stored in the array",
+            "None of the above",
+            "It returns the dimension of the specified array",
+            "It returns the size of each dimension"
+        ]
+    },
+    {
+        "numb": 20,
+        "question": "What did we call an array of the one-dimensional array?",
+        "answer": "2D Array (or 2-Dimensional array)",
+        "options": [
+            "Single Dimensional array",
+            "Multi-Dimensional array",
+            "2D Array (or 2-Dimensional array)",
+            "Both A and B"
+        ]
+    },
+    {
+        "numb": 21,
+        "question": "Which types of arrays are always considered as linear arrays?",
+        "answer": "Single-dimensional",
+        "options": [
+            "Single-dimensional",
+            "Multi-dimensional",
+            "Both A and B",
+            "None of the above"
+        ]
+    },
+    {
+        "numb": 22,
+        "question": "Which of the following can be considered as the object of an array?",
+        "answer": "Elements of the Array",
+        "options": [
+            "Index of an array",
+            "Elements of the Array",
+            "Functions of the Array",
+            "All of the above"
+        ]
+    },
+    {
+        "numb": 23,
+        "question": "Which of the following can be considered as the members that can be inherited but not accessible in any class?",
+        "answer": "Private",
+        "options": [
+            "Public",
+            "Protected",
+            "Private",
+            "Both A and C"
+        ]
+    },
+    {
+        "numb": 24,
+        "question": "Which of the following can be used to create an abstract class in the C++ programming language",
+        "answer": "By using the pure virtual function in the class",
+        "options": [
+            "By using the pure virtual function in the class",
+            "By declaring a virtual function in the base class",
+            "By declaring the virtual keyword afterward, the class Declaration",
+            "None of the above"
+        ]
+    },
+    {
+        "numb": 25,
+        "question": "Which of the following statements is correct about the class?",
+        "answer": "An object is an instance of its class",
+        "options": [
+            "An object is an instance of its class",
+            "A class is an instance of its object",
+            "An object is the instance of the data type of that class",
+            "Both A and C"
+        ]
+    },
+    {
+        "numb": 26,
+        "question": "Which of the following statement is not true about C++?",
+        "answer": "A structure can have the member functions",
+        "options": [
+            "Members of a class are public by default",
+            "A class cannot have the private members",
+            "A structure can have the member functions",
+            "All of the above"
+        ]
+    },
+    {
+        "numb": 27,
+        "question": "Which one of the following cannot be used with the virtual keyword?",
+        "answer": "Constructor",
+        "options": [
+            "Destructor",
+            "Constructor",
+            "Member function",
+            "None of the above"
+        ]
+    },
+    {
+        "numb": 28,
+        "question": "Which of the following is used for implementing the late binding?",
+        "answer": "Virtual Functions",
+        "options": [
+            "Operator Functions",
+            "Constant Functions",
+            "Virtual Functions",
+            "Both A and B"
+        ]
+    },
+    {
+        "numb": 29,
+        "question": " Which of the following statement is correct about the C++ programming language?",
+        "answer": "In C++, both the Static and Dynamic type checking are allowed",
+        "options": [
+            "In C++, both the Static and Dynamic type checking are allowed",
+            "In C++, member function are allowed to be of the type canst",
+            "In C++, Dynamic checking is allowed",
+            "None of the above"
+        ]
+    },
+    {
+        "numb": 30,
+        "question": "Which type of approach is used by the C++ language?",
+        "answer": "Bottom-up",
+        "options": [
+            "Right to left",
+            "Left to right",
+            "Top to bottom",
+            "Bottom-up"
+        ]
+    }
+]

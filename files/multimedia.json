@@ -1,0 +1,299 @@
+[
+    {
+        "numb": 1,
+        "question": " Hyperlinks cannot be ? ",
+        "answer": " All can be hyperlinks",
+        "options": [
+            "Special shapes like stars and banners",
+            "Drawing objects like rectangles ovals",
+            "Pictures",
+            "All can be hyperlinks"
+        ]
+    },
+    {
+        "numb": 2,
+        "question": "You can add an image to a template by clicking the insert picture from file button on the …. Toolbar. ?",
+        "answer": "Picture",
+        "options": [
+            "Standard",
+            "Formatting",
+            "Drawing",
+            "Picture"
+        ]
+    },
+    {
+        "numb": 3,
+        "question": " To drag a selected range of data to another worksheet in the same workbook, use the ?",
+        "answer": "interface",
+        "options": [
+            "application",
+            "program",
+            "server",
+            "interface"
+        ]
+    },
+    {
+        "numb": 4,
+        "question": "  You can open the Sort dialog box by choosing Sort from the ….. Menu?",
+        "answer": "Data ",
+        "options": [
+            "View",
+            "Format",
+            "Data ",
+            "Tools"
+        ]
+    },
+    {
+        "numb": 5,
+        "question": " When you print preview a worksheet?",
+        "answer": "a, b and c",
+        "options": [
+            "The entire worksheet is displayed",
+            "The selected range is displayed",
+            "The active portion of the worksheet is displayed ",
+            "a, b and c"
+        ]
+    },
+    {
+        "numb": 6,
+        "question": "When working in the page break preview, you can",
+        "answer": "All of above",
+        "options": [
+            "View exactly where each page break occurs ",
+            "Add or remove page breaks",
+            "Change the print area",
+            "All of above"
+        ]
+    },
+    {
+        "numb": 7,
+        "question": "________ is an embedded operating system resides on a ROM chip on a mobile device or consumer electronic device?",
+        "answer": "Mobile OS",
+        "options": [
+            "Stand-alone OS",
+            "Server OS",
+            "Mobile OS",
+            "Free OS"
+        ]
+    },
+    {
+        "numb": 8,
+        "question": "Which of the following is not a valid Zoom percentage in Excel? ",
+        "answer": "500",
+        "options": [
+            "10",
+            "100",
+            "300",
+            "500"
+        ]
+    },
+    {
+        "numb": 9,
+        "question": "The spelling tool is placed on ______ toolbar ?",
+        "answer": "Standard",
+        "options": [
+            "Standard",
+            "Formatting",
+            "Drawing",
+            "Reviewing "
+        ]
+    },
+    {
+        "numb": 10,
+        "question": "Formatting a cell in Number format you can’t set?",
+        "answer": "Negative numbers",
+        "options": [
+            "Decimal Places ",
+            "Use 1000 separator",
+            "Negative numbers ",
+            "Currency Symbol"
+        ]
+    },
+    {
+        "numb": 11,
+        "question": " What is entered by the function =today()?",
+        "answer": "All of above ",
+        "options": [
+            "The date value for the day according to system clock",
+            "The time value according to system clock ",
+            "Today’s date as Text format",
+            "All of above "
+        ]
+    },
+    {
+        "numb": 12,
+        "question": "Formatting a cell in Currency, you can specify",
+        "answer": "Both of above",
+        "options": [
+            "Decimal Places ",
+            "Currency Symbol ",
+            "Both of above",
+            "None of above."
+        ]
+    },
+    {
+        "numb": 13,
+        "question": "Icons, menus and windows are part of:",
+        "answer": "Graphical user interface",
+        "options": [
+            "Graphics or games packages",
+            "System security",
+            "Applications and user files",
+            "Graphical user interface"
+        ]
+    },
+    {
+        "numb": 14,
+        "question": "The following is not a part of GUI:",
+        "answer": "command prompt",
+        "options": [
+            "scroll bar",
+            "command prompt",
+            "radio button",
+            "text box"
+        ]
+    },
+    {
+        "numb": 15,
+        "question": " Which function will you use to enter current time in a woksheet cell? .",
+        "answer": "=today()",
+        "options": [
+            "=today()",
+            "=now() ",
+            "=time()",
+            "=currentTime()"
+        ]
+    },
+    {
+        "numb": 16,
+        "question": "Merge cells option can be applied from",
+        "answer": "Format Cells dialog box Alignment Tab",
+        "options": [
+            "Format Cells dialog box Alignment Tab",
+            "Formatting toolbar",
+            "Both of above",
+            "None of above"
+        ]
+    },
+    {
+        "numb": 17,
+        "question": " Which of the following format you can decide to apply or not in AutoFormat dialog box? ",
+        "answer": "All of above",
+        "options": [
+            "Number format",
+            "Border format ",
+            "Font format",
+            "All of above"
+        ]
+    },
+    {
+        "numb": 18,
+        "question": " How can you remove borders applied in cells?",
+        "answer": "Both of above",
+        "options": [
+            "Choose None on Border tab of Format cells",
+            "Open the list on Border tool in Formatting toolbar then choose first tool (no border) ",
+            "Both of above",
+            "None of above"
+        ]
+    },
+    {
+        "numb": 19,
+        "question": " ou can set Page Border in Excel from?",
+        "answer": "You can not set page border in Excel ",
+        "options": [
+            "From Border tab in Format Cells dialog box",
+            "From Border tool in Formatting toolbar  ",
+            "From Line Style tool in Drawing toolbar",
+            "You can not set page border in Excel "
+        ]
+    },
+    {
+        "numb": 20,
+        "question": "You can check the conditions against __________ when applying conditional formatting ?",
+        "answer": "Both of above",
+        "options": [
+            "Cell value",
+            "Formula",
+            "Both of above",
+            "None of above"
+        ]
+    },
+    {
+        "numb": 21,
+        "question": " Each excel file is a workbook that contains different sheets. Which of the following can not be a sheet in workbook? ",
+        "answer": "data sheet",
+        "options": [
+            "work sheet",
+            "chart sheet",
+            "module sheet",
+            "data sheet"
+        ]
+    },
+    {
+        "numb": 22,
+        "question": "When a range is selected, how can you activate the previous cell?",
+        "answer": "None of above",
+        "options": [
+            "Press the Alt key",
+            "Press Tab",
+            "Press Enter",
+            "None of above"
+        ]
+    },
+    {
+        "numb": 23,
+        "question": "Which of the following formulas will Excel Not be able to calculate?",
+        "answer": " =SUM(Sales)-A3",
+        "options": [
+            "=SUM(Sales)-A3",
+            "=SUM(A1:A5)*.5 ",
+            "=SUM(A1:A5)/(10-10) ",
+            "=SUM(A1:A5)-10"
+        ]
+    },
+    {
+        "numb": 24,
+        "question": " To drag a selected range of data to another worksheet in the same workbook, use the",
+        "answer": "Ctrl key ",
+        "options": [
+            "Ctrl key ",
+            "Shift key",
+            "Alt key",
+            "Tab key"
+        ]
+    },
+    {
+        "numb": 25,
+        "question": "  Hyperlinks can be",
+        "answer": " All of above",
+        "options": [
+            "Text",
+            "Drawing objects",
+            "Pictures",
+            "All of above"
+        ]
+    },
+    {
+        "numb": 26,
+        "question": "To activate the previous cell in a pre-selected range, press",
+        "answer": "None of the above",
+        "options": [
+            "the Alt key",
+            "The Tab key",
+            "The Enter key",
+            "None of the above"
+        ]
+    },
+    {
+        "numb": 27,
+        "question": "Which button do you click to add up a series of numbers?",
+        "answer": "The auto sum button",
+        "options": [
+            "The Formula button",
+            "The auto sum button ",
+            "The quicktotal button",
+            "The total button"
+        ]
+    }
+]

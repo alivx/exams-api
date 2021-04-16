@@ -1,0 +1,330 @@
+[
+    {
+        "numb": 1,
+        "question": "Which of the following statements about organizational behaviour is (OB) false?",
+        "answer": " OB is relevant only in employment situations",
+        "options": [
+            " OB is relevant only in employment situations",
+            "OB can shed light on the interactions among family members",
+            "OB can be used in community settings like children's daycare more effectively",
+            "OB can be applied to any organization in order to make it run more effectively"
+        ]
+    },
+    {
+        "numb": 2,
+        "question": "Which of the following situations would likely receive the least benefit from studying organizational behaviour (OB) techniques?",
+        "answer": "pre-teen paper routes",
+        "options": [
+            "post-secondary education student study groups",
+            "voluntary community groups",
+            "pre-teen paper routes",
+            "religious organizations"
+        ]
+    },
+    {
+        "numb": 3,
+        "question": "A field of study that investigates the impact of individuals, groups, and structure on behaviour within organization is known as:",
+        "answer": "organizational behaviour",
+        "options": [
+            "psychology",
+            "organizational behaviour",
+            "social psychology",
+            "anthropology"
+        ]
+    },
+    {
+        "numb": 4,
+        "question": "A conscious coordinated social unit composed of a group of people that function on a relatively continuous basic to achieve a common set of goals is known as a(n)",
+        "answer": "organization",
+        "options": [
+            "work group",
+            " team",
+            "organization",
+            "task force"
+        ]
+    },
+    {
+        "numb": 5,
+        "question": "Which of the following topics is generally considered to be outside the field of OB?",
+        "answer": "therapy",
+        "options": [
+            "therapy",
+            "employment turnover",
+            "job satisfaction",
+            "absenteeism"
+        ]
+    },
+    {
+        "numb": 6,
+        "question": "What are the three rules about behvaviour that attribution theory relies on?",
+        "answer": "consistency, consensus, and distinctiveness",
+        "options": [
+            "distinctiveness, resemblance, and consistency",
+            "consistency, consensus, and distinctiveness",
+            "context, consensus, and distinctiveness",
+            "resemblance, consensus, and consistency"
+        ]
+    },
+    {
+        "numb": 7,
+        "question": "are defined as people who oversee the activities of others and who are responsible for attaining goals in organizations",
+        "answer": "Managers",
+        "options": [
+            "Apprentices",
+            "Interns",
+            "Secretaries",
+            "Managers"
+        ]
+    },
+    {
+        "numb": 8,
+        "question": "The instructions in 68000 can deal with operands of three different sizes",
+        "answer": "True",
+        "options": [
+            "True",
+            "False"
+        ]
+    },
+    {
+        "numb": 9,
+        "question": "As the instructions can deal with variable size operands we use ____________ to resolve this.",
+        "answer": "Size indicator mnemonic",
+        "options": [
+            "None of the mentioned",
+            "Size indicator mnemonic",
+            "Special assemblers",
+            "Delimiter"
+        ]
+    },
+    {
+        "numb": 10,
+        "question": "The starting address is denoted using _________ directive",
+        "answer": "ORG",
+        "options": [
+            "ORG",
+            "ORIGIN",
+            "EQU",
+            "PLACE"
+        ]
+    },
+    {
+        "numb": 11,
+        "question": "The constant can be declared using ___________ directive.",
+        "answer": "DC",
+        "options": [
+            "CONS",
+            "PLACE",
+            "DC",
+            "DATAWORD"
+        ]
+    },
+    {
+        "numb": 12,
+        "question": "To allocate a block of memory we use ___________ directive",
+        "answer": "DS",
+        "options": [
+            "PLACE",
+            "RESERVE",
+            "DATAWORD",
+            "DS"
+        ]
+    },
+    {
+        "numb": 13,
+        "question": "The Branch instruction in 68000 provides how many types of offsets?",
+        "answer": "2",
+        "options": [
+            "3",
+            "2",
+            "1",
+            "0"
+        ]
+    },
+    {
+        "numb": 14,
+        "question": "What part of the CPU is being described",
+        "answer": "ALU",
+        "options": [
+            "ALU",
+            "Cache",
+            "Control Unit",
+            "Memory"
+        ]
+    },
+    {
+        "numb": 15,
+        "question": "The PC register holds what?",
+        "answer": "The address for the next instruction",
+        "options": [
+            "The accumulated memory location",
+            "The instruction for the next instruction",
+            "The data for the next instruction",
+            "The address for the next instruction"
+        ]
+    },
+    {
+        "numb": 16,
+        "question": "Which of these is not a system utility program?",
+        "answer": "A graphics card driver",
+        "options": [
+            "Memory and CPU monitor",
+            "A graphics card driver",
+            "Defragmentation software",
+            "Diagnostic software in case of computer crash"
+        ]
+    },
+    {
+        "numb": 17,
+        "question": "Re-organises the files by putting the related files next to each other",
+        "answer": "Defragmentation",
+        "options": [
+            "Compression",
+            "Encryption",
+            "Auto-Update",
+            "Defragmentation"
+        ]
+    },
+    {
+        "numb": 18,
+        "question": "What is the purpose of Utility Software?",
+        "answer": "all the above",
+        "options": [
+            "To keep the computer organised",
+            "To ensure it has up to date software",
+            "To ensure the system runs efficiently",
+            "all the above"
+        ]
+    },
+    {
+        "numb": 19,
+        "question": "Translates low level assembly language mnemonic into machine code",
+        "answer": "Assembler",
+        "options": [
+            "Interpreter",
+            "Compiler",
+            "Assembler",
+            "Executable"
+        ]
+    },
+    {
+        "numb": 20,
+        "question": "Which of the following statements about libraries is not true?",
+        "answer": "Code generated that includes libraries, cannot be converted to stand alone code",
+        "options": [
+            "An advantage of libraries is that they consist of code that has already been checked and compiled",
+            "Code generated that includes libraries, cannot be converted to stand alone code",
+            "Programmers can write their own libraries",
+            "Libraries could include functions for generating random numbers or performing mathematical calculations"
+        ]
+    },
+    {
+        "numb": 21,
+        "question": "What characteristics of RAM makes it not suitable for permanent memory?",
+        "answer": "Volatile in nature",
+        "options": [
+            "Unreliable",
+            "Volatile in nature",
+            "To slow",
+            "None of the above"
+        ]
+    },
+    {
+        "numb": 22,
+        "question": "Computers use addressing mode technique for:",
+        "answer": "All of the above",
+        "options": [
+            "To reduce numbers of bits in the field of instruction",
+            "Specifying rules for modifying or interpreting address field of the instruction",
+            "Giving programming versatility  to the user by providing facilities by providing facilities as pointers to memory computer for loop control",
+            "All of the above"
+        ]
+    },
+    {
+        "numb": 23,
+        "question": "Which of the following is the lowest in memory hierarchy?",
+        "answer": "Secondary memory",
+        "options": [
+            "Cache memory",
+            "Register",
+            "RAM",
+            "Secondary memory"
+        ]
+    },
+    {
+        "numb": 24,
+        "question": "A group of bits that tell the computer to perform a specific operation is known as:",
+        "answer": "Instruction code",
+        "options": [
+            "Accumulator",
+            "Register",
+            "Micro operation",
+            "Instruction code"
+        ]
+    },
+    {
+        "numb": 25,
+        "question": "",
+        "answer": "Data bus",
+        "options": [
+            "I/O bus",
+            "Address bus",
+            "Data bus",
+            "Control lines"
+        ]
+    },
+    {
+        "numb": 26,
+        "question": "Data input command is just the opposite of a:",
+        "answer": "Data output",
+        "options": [
+            "Data output",
+            "Data channel",
+            "Test command",
+            "Control command"
+        ]
+    },
+    {
+        "numb": 27,
+        "question": "A binary digit is called:",
+        "answer": "Register",
+        "options": [
+            "Bit",
+            "Byte",
+            "Register",
+            "Character"
+        ]
+    },
+    {
+        "numb": 28,
+        "question": "The operation executed in data and stored in the register is called :",
+        "answer": "Micro operation",
+        "options": [
+            "byte operation",
+            "Bit operation",
+            "Micro operation",
+            "Macro operation"
+        ]
+    },
+    {
+        "numb": 29,
+        "question": "Which of the following is the main memory?",
+        "answer": "Cache memory",
+        "options": [
+            "Cache memory",
+            "Auxiliary memory",
+            "Secondary memory ",
+            "Virtual memory"
+        ]
+    },
+    {
+        "numb": 30,
+        "question": "The most common addressing techniques used by CPU is:",
+        "answer": "All of the above ",
+        "options": [
+            "Immediate addressing techniques",
+            "Indirect addressing techniques",
+            "Direct addressing techniques",
+            "All of the above"
+        ]
+    }
+]

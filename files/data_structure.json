@@ -1,0 +1,266 @@
+[
+    {
+        "numb": 1,
+        "question": "Process of inserting an element in stack is called ?",
+        "answer": "Push",
+        "options": [
+            "Create",
+            "Push",
+            "Evaluation",
+            "Pop"
+        ]
+    },
+    {
+        "numb": 2,
+        "question": "Pushing an element into stack already having five elements and stack size of 5, then stack becomes?",
+        "answer": "Overflow",
+        "options": [
+            " Overflow",
+            " Crash",
+            " Underflow",
+            " User flow"
+        ]
+    },
+    {
+        "numb": 3,
+        "question": "Consider the usual algorithm for determining whether a sequence of parentheses is balanced. The maximum number of parentheses that appear on the stack AT ANY ONE TIME when the algorithm analyzes:(()(())(()))?",
+        "answer": "3",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4 or more"
+        ]
+    },
+    {
+        "numb": 4,
+        "question": " Here is an infix expression: 4 + 3*(6*3-12). Suppose that we are using the usual stack algorithm to convert the expression from infix to postfix notation. The maximum number of symbols that will appear on the stack AT ONE TIME during the conversion of this expression?",
+        "answer": "4",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
+    },
+    {
+        "numb": 5,
+        "question": "Which of the following is not the application of stack??",
+        "answer": "Data Transfer between two asynchronous process",
+        "options": [
+            "A parentheses balancing program",
+            "Tracking of local variables at run time",
+            "Compiler Syntax Analyzer",
+            "Data Transfer between two asynchronous process"
+        ]
+    },
+    {
+        "numb": 6,
+        "question": "What is the value of the postfix expression 6 3 2 4 + – *? ",
+        "answer": "-18",
+        "options": [
+            "1",
+            "40",
+            "-18",
+            "18"
+        ]
+    },
+    {
+        "numb": 7,
+        "question": "my name is ",
+        "answer": "motasem",
+        "options": [
+            "mohammad",
+            "motasem",
+            "option1",
+            "option2"
+        ]
+    },
+    {
+        "numb": 8,
+        "question": "In a stack, if a user tries to remove an element from an empty stack it is called?",
+        "answer": "Underflow",
+        "options": [
+            "Underflow",
+            "Empty collection",
+            "Overflow",
+            "Garbage Collection"
+        ]
+    },
+    {
+        "numb": 9,
+        "question": "The data structure required for Breadth First Traversal on a graph is? ",
+        "answer": "Queue",
+        "options": [
+            "Stack",
+            "Array",
+            "Queue",
+            "Tree"
+        ]
+    },
+    {
+        "numb": 10,
+        "question": "A queue follows ?",
+        "answer": "FIFO (First In First Out) principle",
+        "options": [
+            "FIFO (First In First Out) principle",
+            "LIFO (Last In First Out) principle",
+            "Ordered array",
+            "Linear tree"
+        ]
+    },
+    {
+        "numb": 11,
+        "question": "A queue follows ?",
+        "answer": "FIFO (First In First Out) principle",
+        "options": [
+            "FIFO (First In First Out) principle",
+            "LIFO (Last In First Out) principle",
+            "Ordered array",
+            "Linear tree"
+        ]
+    },
+    {
+        "numb": 12,
+        "question": " If the elements “A”, “B”, “C” and “D” are placed in a queue and are deleted one at a time, in what order will they be removed?",
+        "answer": "ABCD",
+        "options": [
+            "ABCD",
+            "DCBA",
+            "DCAB",
+            "ABDC"
+        ]
+    },
+    {
+        "numb": 13,
+        "question": "A data structure in which elements can be inserted or deleted at/from both ends but not in the middle is?",
+        "answer": "Dequeue",
+        "options": [
+            "Priority queue",
+            "Dequeue",
+            "Queue",
+            "Linear tree"
+        ]
+    },
+    {
+        "numb": 14,
+        "question": "What would be the asymptotic time complexity to insert an element at the front of the linked list (head is known)?",
+        "answer": "O(1)",
+        "options": [
+            "O(1)",
+            "O(n)",
+            " O(n2)",
+            "O(n3)"
+        ]
+    },
+    {
+        "numb": 15,
+        "question": "What would be the asymptotic time complexity to find an element in the linked list?",
+        "answer": "O(n)",
+        "options": [
+            "O(1)",
+            "O(n2))",
+            "O(n3",
+            "O(n)"
+        ]
+    },
+    {
+        "numb": 16,
+        "question": "Consider the following definition in c programming language.struct node <br> {    int data;  <br>  struct node * next;}, <br> typedef struct node NODE; <br> NODE *ptr; Which of the following c code is used to create new node?",
+        "answer": "ptr = (NODE*)malloc(sizeof(NODE));",
+        "options": [
+            "ptr = (NODE*)malloc(sizeof(NODE));",
+            "ptr = (NODE*)malloc(NODE);",
+            "ptr = (NODE*)malloc(sizeof(NODE*));",
+            "ptr = (NODE)malloc(sizeof(NODE));"
+        ]
+    },
+    {
+        "numb": 17,
+        "question": "What are the main applications of tree data structure? 1) Manipulate hierarchical data 2)<br> Make information easy to search (see tree traversal). 3) Manipulate sorted lists of data 4) Router algorithms 5) <br>Form of a multi-stage decision-making, like Chess Game. 6)<br>As a workflow for compositing digital images for visual effects",
+        "answer": "1, 2, 3, 4, 5 and 6",
+        "options": [
+            "1, 2, 3, 4 and 6",
+            "1, 2, 3, 4 and 5",
+            "1, 3, 4, 5 and 6",
+            "1, 2, 3, 4, 5 and 6"
+        ]
+    },
+    {
+        "numb": 18,
+        "question": "write a compleixty <br>for (int i= 1; ik= 15; it+) <br>  System.out.print ('HI'); ?",
+        "answer": "O(1)",
+        "options": [
+            "O(1)",
+            "O(n2))",
+            "O(n3",
+            "O(n)"
+        ]
+    },
+    {
+        "numb": 19,
+        "question": "write a compleixty <br> for(int i- 1; i <= 15; i++) <br> for (int j = 1: je = n; j++) <br> System.out.print('HI'); ",
+        "answer": "O(n)",
+        "options": [
+            "O(1)",
+            "O(n2))",
+            "O(n3",
+            "O(n)"
+        ]
+    },
+    {
+        "numb": 20,
+        "question": " write a compleixty int x=1; <br>  while(x<= n) { System.out.print('HI');<br>  x = x * 2; } ? ",
+        "answer": "O(log2n",
+        "options": [
+            "O(log1)",
+            "O(log2n2))",
+            "O(log2n3",
+            "O(log2n)"
+        ]
+    },
+    {
+        "numb": 21,
+        "question": "write a compleixty <br> int x=1; <br> while(x = n) {<br> System.out.print('HI'); <br> x = x + 2; <br> } ?",
+        "answer": "O(n)",
+        "options": [
+            "O(1)",
+            "O(n2))",
+            "O(n3",
+            "O(n)"
+        ]
+    },
+    {
+        "numb": 22,
+        "question": "  write a compleixty <br> Int x 1; <br> while(x <= n) { <br> System.out.print('HI');: <br> x = x * 2; <br> int y = n;<br> while(y >= 1) {<br>System.out.print('8YE'); <br> Y-- <br>  } } ?",
+        "answer": "O(nlog2n)",
+        "options": [
+            "O(nlog1)",
+            "O(log2n2))",
+            "O(log2n3",
+            "O(nlog2n)"
+        ]
+    },
+    {
+        "numb": 23,
+        "question": "write a compleixty int x=1; <br> while(x = n) { <br>  System.out.print('ONE'); <br>  x = xt +; <br> int y = n'n; } <br> while(y>= 1) {  <br>  System.out.print('TWo') <br>   y-- <br> } <br> for (int i - 1; ic = n; i++)<br> System.out.print('THREE') <br> }; ?",
+        "answer": "O(n3)",
+        "options": [
+            "O(1)",
+            "O(n2)",
+            "O(n3)",
+            "O(n)"
+        ]
+    },
+    {
+        "numb": 24,
+        "question": " write a compleixty <br> for(int i- 1; i <= n; i++) <br> { <br>  System.out.print('ONE');<br> for (intj 1; j = n; j *= 2) <br>  System.out.print('TWwO');  Int k = n2; <br>   While(k >= 1)  { <br>  System.out.print('THREE') <br>  K = k - n <br> } }; ?",
+        "answer": "O(n2)",
+        "options": [
+            "O(1)",
+            "O(n2)",
+            "O(n3)",
+            "O(n)"
+        ]
+    }
+]

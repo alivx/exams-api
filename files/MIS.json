@@ -1,0 +1,320 @@
+[
+    {
+        "numb": 1,
+        "question": " Which term describes a company you do business with on a regular basis in a cooperative fashion, usually facilitated by IT systems?",
+        "answer": "Alliance partner",
+        "options": [
+            "Alliance partner",
+            "Information partnership",
+            "Distribution chain",
+            "B2B"
+        ]
+    },
+    {
+        "numb": 2,
+        "question": "Software designed to improve the performance of teams by supporting the sharing and flow of information is called a ?",
+        "answer": "Collaboration system",
+        "options": [
+            "Social network system",
+            "Group decision support system",
+            "Team system",
+            "Collaboration system"
+        ]
+    },
+    {
+        "numb": 3,
+        "question": "Processed ______________________ is also called ______________, while the most raw elements of facts and figures are known as ______________. ?",
+        "answer": "Information; Knowledge; Data",
+        "options": [
+            "Data; Knowledge; Information",
+            "Information; Data; Knowledge",
+            "Information; Knowledge; Data",
+            "Knowledge; Data; Information"
+        ]
+    },
+    {
+        "numb": 4,
+        "question": "The time dimension of information includes two aspects: having access to information when you need it and ________________. ?",
+        "answer": "Having information that describes the appropriate time period",
+        "options": [
+            "Having access to information at the right moment in time",
+            "Having information that describes the appropriate time period",
+            "Having information about the most recent time period",
+            "None of the above"
+        ]
+    },
+    {
+        "numb": 5,
+        "question": "Which of the following refers to using communications technologies to work in a location other than a central location (such as an office building) ?",
+        "answer": "Telecommuting",
+        "options": [
+            "Wireless networks",
+            "Business Intelligence",
+            "Telecommuting",
+            "Remote desktop"
+        ]
+    },
+    {
+        "numb": 6,
+        "question": "An information-literate knowledge worker will be able to ______________, while a technology-literate knowledge worker will always be able to _______________.?",
+        "answer": "Act appropriately based on the information; know how and when to use technology",
+        "options": [
+            "Define what information they need; define what technology he/she needs",
+            "Know how and where to obtain that information; create new technology when required",
+            "Understand information before they even receive it; understand how technology affects him/her",
+            "Act appropriately based on the information; know how and when to use technology"
+        ]
+    },
+    {
+        "numb": 7,
+        "question": "Which dimension of information describes being able to access information from a hotel room??",
+        "answer": " Location dimension",
+        "options": [
+            " Time dimension",
+            " Location dimension",
+            " Form dimension",
+            " None of the above"
+        ]
+    },
+    {
+        "numb": 8,
+        "question": "Which of the following represents the flow of information between functional business units and work teams?",
+        "answer": " Horizontal flow",
+        "options": [
+            " Upward flow",
+            " Downward flow",
+            " Horizontal flow",
+            " Outward flow"
+        ]
+    },
+    {
+        "numb": 9,
+        "question": "The success of telecommuting depends on what?",
+        "answer": " All of the above",
+        "options": [
+            " Suitability of profession",
+            " Discipline",
+            " Availability of technology",
+            " All of the above"
+        ]
+    },
+    {
+        "numb": 10,
+        "question": "Which term describes electronic commerce conducted over a wireless device such as cell phone or PDA?",
+        "answer": " M-Commerce",
+        "options": [
+            " CIS",
+            " EIS",
+            " Now economy",
+            " M-Commerce"
+        ]
+    },
+    {
+        "numb": 11,
+        "question": "Which data manipulation tool allows you to graphically design the answer to your business question s?",
+        "answer": " Query-by-example tools",
+        "options": [
+            " Report generators",
+            " Application reports",
+            " Data administration tools",
+            " Query-by-example tools"
+        ]
+    },
+    {
+        "numb": 12,
+        "question": "Which data administration facility allows you to control who has access to what information and what type of access those people have?",
+        "answer": " Security management facilities",
+        "options": [
+            " Concurrency control facilities",
+            " Query optimization facilities",
+            " Reorganization facilities",
+            " Security management facilities"
+        ]
+    },
+    {
+        "numb": 13,
+        "question": "If you were a programmer and needed to view information as it was stored by the database, what type of database view would you see?",
+        "answer": " Physical view",
+        "options": [
+            " Logical view",
+            " Stored view",
+            " Physical view",
+            " Objective view"
+        ]
+    },
+    {
+        "numb": 14,
+        "question": "Which of the following functions plans for, oversees the development of, and monitors the information resource of an organization?",
+        "answer": " Data administration",
+        "options": [
+            " Data administration",
+            " Operational planning",
+            " Strategic management",
+            " Data manipulation"
+        ]
+    },
+    {
+        "numb": 15,
+        "question": "A senior manager who analyzes internal and external information to analyze marketing campaigns and their affect on customer buying habits is using which type of application?",
+        "answer": " Online analytical processing (OLAP)",
+        "options": [
+            " Enterprise resource planning (ERP)",
+            " Online analytical processing (OLAP)",
+            " Decision support systems (DSS)",
+            " Geographic information systems (GIS)"
+        ]
+    },
+    {
+        "numb": 16,
+        "question": "_____ is the gathering of input information, processing that information, and updating existing information to reflect the gathered and processed information?",
+        "answer": " Online transaction processing (OLTP)",
+        "options": [
+            "File management systems (FMS)",
+            " Online analytical processing (OLAP)",
+            " Business intelligence (BI)",
+            " Online transaction processing (OLTP)"
+        ]
+    },
+    {
+        "numb": 17,
+        "question": "In a data warehouse, which data-mining tool would you use to quickly build reports without having to write programming code?",
+        "answer": " Query-and-reporting tools",
+        "options": [
+            "Multidimensional analysis tools",
+            " Query-and-reporting tools",
+            " Artificial intelligence",
+            " Application report generator"
+        ]
+    },
+    {
+        "numb": 18,
+        "question": "Which type of constraint ensures the quality of information in a relational database?",
+        "answer": "Integrity constraint",
+        "options": [
+            "Integrity constraint",
+            " Business constraint",
+            " Environmental constraint",
+            " Production constraint"
+        ]
+    },
+    {
+        "numb": 19,
+        "question": "_____ are the most essential and important quantifiable measures used in analytics initiatives to monitor success of a business activity?",
+        "answer": " KPIs",
+        "options": [
+            "QBEs",
+            " KPIs",
+            " SQLs",
+            " DPIs"
+        ]
+    },
+    {
+        "numb": 20,
+        "question": "A _____ is simply a copy of the information stored on a computer?",
+        "answer": " Backup",
+        "options": [
+            "Duplicate",
+            " Replica",
+            " Backup",
+            " Photocopy"
+        ]
+    },
+    {
+        "numb": 21,
+        "question": "Which organizational function is responsible for the more technical and operational aspects of managing information repositories?",
+        "answer": " Database administration",
+        "options": [
+            "Operational planning",
+            " Information resource planning",
+            " Strategic management",
+            " Database administration"
+        ]
+    },
+    {
+        "numb": 22,
+        "question": "A _____ is a special form of a database that contains information gathered from operational databases for the purpose of supporting decision-making tasks?",
+        "answer": " Data warehouse",
+        "options": [
+            "Data entry",
+            " Data dictionary",
+            " Data mine",
+            " Data warehouse"
+        ]
+    },
+    {
+        "numb": 23,
+        "question": "If you were to perform a regression analysis, what type of data warehouse tool would it be?",
+        "answer": " Statistical",
+        "options": [
+            "Multidimensional analysis",
+            " Statistical",
+            " Production analysis",
+            " Hypercube"
+        ]
+    },
+    {
+        "numb": 24,
+        "question": "What is the most popular model for creating databases?",
+        "answer": " Relational database model",
+        "options": [
+            "Ecological database model",
+            " Object-oriented database model",
+            " Relational database model",
+            " Hierarchical database model"
+        ]
+    },
+    {
+        "numb": 25,
+        "question": "A database can contribute to organizational success by providing managers and decision makers with timely, accurate, and relevant information based on data?",
+        "answer": "True",
+        "options": [
+            "True",
+            " False"
+        ]
+    },
+    {
+        "numb": 26,
+        "question": "A DBMS provides a single point of management and control over data resources?",
+        "answer": "True",
+        "options": [
+            "True",
+            " False"
+        ]
+    },
+    {
+        "numb": 27,
+        "question": " The physical design of a database involves identifying relationships among the data items and grouping them in an orderly fashion?",
+        "answer": " False",
+        "options": [
+            "True",
+            " False"
+        ]
+    },
+    {
+        "numb": 28,
+        "question": "Flat file databases do not use database models such as the relational model?",
+        "answer": "True",
+        "options": [
+            "True",
+            " False"
+        ]
+    },
+    {
+        "numb": 29,
+        "question": "SQL is a visual approach to developing database queries or requests?",
+        "answer": "False",
+        "options": [
+            "True",
+            "False"
+        ]
+    },
+    {
+        "numb": 30,
+        "question": "Data warehouses allow managers to roll up to take detailed data and generate aggregate or summary reports?",
+        "answer": "True",
+        "options": [
+            "True",
+            " False"
+        ]
+    }
+]

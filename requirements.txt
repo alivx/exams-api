@@ -1,0 +1,8 @@
+mysql-connector==2.2.9
+pandas==1.2.4
+pandasql==0.7.3
+PyMySQL==1.0.2
+python-multipart==0.0.5
+SQLAlchemy==1.4.8
+uvicorn==0.13.4
+fastapi

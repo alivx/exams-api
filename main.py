@@ -7,9 +7,10 @@ from pandasql import sqldf
 from sqlalchemy import create_engine
 from fastapi import FastAPI, File, Form, UploadFile
 import shutil
-import sqlite3
-import ast
 from fastapi.middleware.cors import CORSMiddleware
+import datetime
+import os
+from sdconfig import *
 
 app = FastAPI()
 origins = [
@@ -23,119 +24,91 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
 engine = create_engine(
-    "mysql+pymysql://{user}:{pw}@localhost/{db}".format(
-        user="root", pw="root",  db="exams"
+    "mysql+pymysql://{user}:{pw}@{host}/{db}".format(
+        user=databaseUser, pw=databasePassword, db=databaseName, host=databaseHost
     )
 )
 
-def convertUploadedFileJson(fileName):
+
+def convertUploadedFileJson(fileName, fineOrigin):
     with open(f"{fileName}", "r") as f:
         data = json.loads(f.read())
     ques = pd.io.json.json_normalize(data)
-    ques["material"] = str(fileName.replace(".json", ""))
+    ques["material"] = str(fineOrigin.replace(".json", ""))
     out = ques.reset_index().to_json(orient="records")
     dfJson = json.loads(out)
     return dfJson
 
-def insertIntoDB():
-    rows = []
-    for field in data:
-        query="""
+
+def getTimeStap():
+    ts = datetime.datetime.now().timestamp()
+    return ts
+
+
+def insertIntoDB(dfjson):
+    count = 0
+    for field in dfjson:
+        query = """
             INSERT IGNORE INTO exams (  numb, question, answer,options,material)
-            VALUES ( '{}','{}','{}',"{}","{}");""".format( field["numb"],field["question"],field["answer"],field["options"],field['material'])
-        print("Inserting {},{}".format(field['numb'],field["material"]))
+            VALUES ( '{}','{}','{}',"{}","{}");""".format(
+            field["numb"],
+            field["question"],
+            field["answer"],
+            field["options"],
+            field["material"],
+        )
+        print("Inserting {},{}".format(field["numb"], field["material"]))
         try:
             engine.execute(query)
+            count = count + 1
         except Exception as e:
             print(f"Error {e}")
-
-
-def convertIt(fileName, count):
-    with open(f"{fileName}", "r") as f:
-        data = json.loads(f.read())
-    ques = pd.io.json.json_normalize(data)
-    ques.to_csv("output.csv")
-    data = pd.read_csv("output.csv", usecols=["numb", "question", "answer", "options"])
-    output = sqldf(
-        "select * from data where numb  >= (abs(random()) % (SELECT max(numb) FROM data)) limit {}".format(
-            count
-        )
-    )
-    out = output.reset_index().to_json(orient="records")
-    dfJson = json.loads(out)
-    return data, output, dfJson
-
-
-def convertItandInsert(fileName):
-    with open(f"{fileName}", "r") as f:
-        data = json.loads(f.read())
-    ques = pd.io.json.json_normalize(data)
-    ques.to_csv("output.csv")
-    data = pd.read_csv("output.csv", usecols=["numb", "question", "answer", "options"])
-    output = sqldf(
-        "select * from data where numb  >= (abs(random()) % (SELECT max(numb) FROM data)) limit {}".format(
-            count
-        )
-    )
-    out = output.reset_index().to_json(orient="records")
-    dfJson = json.loads(out)
-    return data, output, dfJson
-
-
-class Item(BaseModel):
-    name: str
-    price: float
-    is_offer: Optional[bool] = None
-
+    return count
 
 @app.get("/")
 def read_root():
-    return {"Name": "Exams API"}
+    return {"Home": "Welcome to Exams API, check /docs for more info"}
 
 
-# analysis
+# Get info [Done]
 @app.get("/items/{item_id}")
 def read_item(item_id: str, count: Optional[int] = None):
-    # conn = sqlite3.connect("save_exams.db")
-    # df = pd.read_sql_query(f"select * from {item_id} limit {count};", conn)
-    df = pd.read_sql(f"select * from exams where material = '{item_id}' limit {count};", con=engine)
-
+    df = pd.read_sql(
+        f"select * from exams where material = '{item_id}' ORDER BY RAND() limit {count};",
+        con=engine,
+    )
     out = df.reset_index().to_json(orient="records")
     dfJson = json.loads(out)
     return dfJson
 
 
+# Put questions [Done]
 @app.put("/items/{item_id}")
 def update_item(
-    item: str,
-    index: int,
-    numb: int,
     question: str,
     options1: str,
     options2: str,
     options3: str,
     options4: str,
     answer: str,
+    material: str,
 ):
     obj = {
-        "item": item,
-        "index": index,
-        "numb": numb,
         "question": question,
         "options": [options1, options2, options3, options4],
         "answer": answer,
+        "material": material,
     }
     op = [options1, options2, options3, options4]
-    conn = sqlite3.connect("save_exams.db")
-    c = conn.cursor()
-    print(
-        f"""insert into {item} values("{index}","{numb}","{question}","{answer}","{op}")"""
-    )
-    c.execute(
-        f"""insert into {item} values("{index}","{numb}","{question}","{answer}","{op}")"""
-    )
-    conn.commit()
+    print(f"Trying to insert exams into material {material}")
+    query = f"""insert into exams (question,options,answer,material) values("{question}","{op}","{answer}","{material}")"""
+    try:
+        engine.execute(query)
+    except Exception as e:
+        print(f"Error {e}")
+    print(f"Done from {question} material {material} ")
     return obj
 
 
@@ -143,7 +116,22 @@ def update_item(
 async def create_file(
     file: UploadFile = File(...),
 ):
-    with open(file.filename, "wb") as buffer:
+    """Upload file
+
+    Args:
+        file (UploadFile)
+
+    Returns:
+        fineName: fineName
+        fileItemSize: item count
+    """
+    fileName = "{}-{}".format(getTimeStap(), file.filename)
+    with open(fileName, "wb") as buffer:
         shutil.copyfileobj(file.file, buffer)
-    convertItandInsert(file.filename)
-    return {"file_size": file.filename}
+    uploadedFile = convertUploadedFileJson(fileName, file.filename)
+    numberOfItem = insertIntoDB(uploadedFile)
+    if os.path.exists(fileName):
+        os.remove(fileName)
+    else:
+        print("Can not delete the file as it doesn't exists")
+    return {"fineName": file.filename, "NumberOfQuestions": numberOfItem}

@@ -1,0 +1,332 @@
+[
+    {
+        "numb": 1,
+        "question": "The complex organizational process through which computer-based information systems are developed and maintained best defines: ",
+        "answer": "information systems analysis and design",
+        "options": [
+            "information systems analysis and design",
+            "joint application design ",
+            "prototyping ",
+            "none of the above"
+        ]
+    },
+    {
+        "numb": 2,
+        "question": "Software designed to support the payroll function would best be classified as: ",
+        "answer": "application software ",
+        "options": [
+            "system software",
+            "application software",
+            "design software ",
+            "analysis software"
+        ]
+    },
+    {
+        "numb": 3,
+        "question": "The person in an organization who has the primary responsibility for systems analysis and design is the: ",
+        "answer": "systems analyst ",
+        "options": [
+            "end user",
+            "internal auditor",
+            "business manager",
+            "systems analyst"
+        ]
+    },
+    {
+        "numb": 4,
+        "question": "Which of the following can be considered a goal of TPS development?",
+        "answer": "all of the above ",
+        "options": [
+            " improve transaction processing by speeding it up",
+            "use fewer people ",
+            "improve efficiency and accuracy",
+            "all of the above "
+        ]
+    },
+    {
+        "numb": 5,
+        "question": "The phase of the SDLC in which an information system is systematically repaired and improved is referred to as: ",
+        "answer": " maintenance",
+        "options": [
+            "analysis",
+            "mplementation",
+            " maintenance",
+            "physical repair"
+        ]
+    },
+    {
+        "numb": 6,
+        "question": "Sources of software include:",
+        "answer": "all of the above ",
+        "options": [
+            "mhardware manufacturersohammad",
+            "packaged software providers",
+            "application service providers",
+            "all of the above "
+        ]
+    },
+    {
+        "numb": 7,
+        "question": "The first administrative information system was: name is ",
+        "answer": "General Electric’s payroll system",
+        "options": [
+            "General Motor’s order tracking system",
+            "ord Motor Company’s order tracking system ",
+            "General Electric’s payroll system",
+            " Coca-Cola’s payroll system "
+        ]
+    },
+    {
+        "numb": 8,
+        "question": " Coca-Cola’s payroll system  ",
+        "answer": "all of the above.",
+        "options": [
+            "freeing up internal resources",
+            "increasing processing efficiencies",
+            "reducing time to market. ",
+            "all of the above."
+        ]
+    },
+    {
+        "numb": 9,
+        "question": "Hiring a company to run your applications at your site on your computers is an example of:  name is ",
+        "answer": "outsourcing",
+        "options": [
+            "a turnkey system ",
+            "outsourcing",
+            "downsizing",
+            "realignment"
+        ]
+    },
+    {
+        "numb": 10,
+        "question": "Which of the following is not a project planning activity? ",
+        "answer": "establishing management procedures ",
+        "options": [
+            "setting a Baseline Project Plan",
+            "identifying and assessing risk",
+            "determining project standards and procedures",
+            "establishing management procedures "
+        ]
+    },
+    {
+        "numb": 11,
+        "question": "Which of the following is not a project close down phase?  ",
+        "answer": "communicating the project status",
+        "options": [
+            "conducting post project reviews",
+            "closing the customer contract ",
+            "closing down the project",
+            "communicating the project status"
+        ]
+    },
+    {
+        "numb": 12,
+        "question": "Any person, group of people, piece of equipment, or material used in accomplishing an activity is referred to as a(n): ",
+        "answer": "resource",
+        "options": [
+            "resource",
+            "entity",
+            "identifier",
+            "agent"
+        ]
+    },
+    {
+        "numb": 13,
+        "question": "The amount of time that an activity can be delayed without delaying the project refers to: ",
+        "answer": "slack time ",
+        "options": [
+            "noncritical time",
+            "slack time ",
+            "down time ",
+            "delay time "
+        ]
+    },
+    {
+        "numb": 14,
+        "question": "Tangible benefits would include:",
+        "answer": "motasem",
+        "options": [
+            "improved organizational planning",
+            "ability to investigate more alternatives",
+            "improved asset control utilization ",
+            "lower transaction costs"
+        ]
+    },
+    {
+        "numb": 15,
+        "question": "Which of the following is a way projects can be identified? ",
+        "answer": "motasem",
+        "options": [
+            "bottom-up source ",
+            "upper-echelon source ",
+            "top-down source ",
+            "both a and c "
+        ]
+    },
+    {
+        "numb": 16,
+        "question": "A statement that makes it clear what business a company is in is called a: ",
+        "answer": "corporate policy statement ",
+        "options": [
+            "business statement ",
+            "mission statement ",
+            "goal statement",
+            "corporate policy statement "
+        ]
+    },
+    {
+        "numb": 17,
+        "question": "As a rule of thumb estimate, what percentage of the entire development effort should be devoted to the project initiation and planning process?  ",
+        "answer": "between 10 and 20 percent",
+        "options": [
+            "between 10 and 20 percent",
+            "less than 5 percent ",
+            "less than 10 percent",
+            "between 20 and 30 percent"
+        ]
+    },
+    {
+        "numb": 18,
+        "question": "Cost reduction and avoidance, error reduction, and increased flexibility are examples of:  ",
+        "answer": "tangible benefits",
+        "options": [
+            "intangible benefits",
+            "qualitative benefits ",
+            "tangible benefits",
+            "legal and contractual benefits "
+        ]
+    },
+    {
+        "numb": 19,
+        "question": "The matrix that identifies the relationships between organizational entities and each business function is:  ",
+        "answer": "unit-to-function",
+        "options": [
+            "location-to-unit ",
+            "unit-to-function",
+            "entity-to-process ",
+            "function-to-process"
+        ]
+    },
+    {
+        "numb": 20,
+        "question": "An advantage of the bottom-up planning approach is:",
+        "answer": "identifying pressing organizational problems ",
+        "options": [
+            "identifying pressing organizational problems ",
+            "broader perspective ",
+            "improved integration",
+            "better understanding "
+        ]
+    },
+    {
+        "numb": 21,
+        "question": "Which of the following is the first ISP step?",
+        "answer": "Assess current IS-related assets",
+        "options": [
+            "Develop target blueprints",
+            "Assess current IS-related assets",
+            "Assess current IS-related assets",
+            "Assign resources"
+        ]
+    },
+    {
+        "numb": 22,
+        "question": "Which of the following is a competitive strategy? ",
+        "answer": "all of the above",
+        "options": [
+            "low-cost producer",
+            "product differentiation",
+            "product focus ",
+            "all of the above"
+        ]
+    },
+    {
+        "numb": 23,
+        "question": "Once a company has defined its mission and objectives:  ",
+        "answer": "a competitive strategy can be formulated ",
+        "options": [
+            "goals can be established",
+            "an information architecture can be developed",
+            "project analysis can begin ",
+            "a competitive strategy can be formulated "
+        ]
+    },
+    {
+        "numb": 24,
+        "question": " A controlled process of initiating, planning, executing, and closing down a project best defines:  ",
+        "answer": "project management ",
+        "options": [
+            "systems development ",
+            "project management ",
+            "project development",
+            "systems management "
+        ]
+    },
+    {
+        "numb": 25,
+        "question": "A planned undertaking of related activities to reach an objective that has a beginning and an end best defines:",
+        "answer": "project",
+        "options": [
+            "task development",
+            "activity plan ",
+            "project ",
+            "task schedule"
+        ]
+    },
+    {
+        "numb": 26,
+        "question": "Which of the following software evaluation criteria refers to the ease with which you or the vendor can customize the software?  ",
+        "answer": "motasem",
+        "options": [
+            "cost",
+            "vendor viability ",
+            "functionality",
+            "flexibility"
+        ]
+    },
+    {
+        "numb": 27,
+        "question": "When purchasing off-the-shelf software, you should consider:  ",
+        "answer": "all of the above ",
+        "options": [
+            "all of the above ",
+            "vendor viabilit",
+            "vendor viabilit",
+            "flexibility"
+        ]
+    },
+    {
+        "numb": 28,
+        "question": "Based on service revenue, which of the following companies is the top global software company? ",
+        "answer": "EDS",
+        "options": [
+            "EDS",
+            "Accenture",
+            "Microsoft",
+            "Compaq"
+        ]
+    },
+    {
+        "numb": 29,
+        "question": "myBased on 2002 total revenues, which of the following companies had the highest revenues?  name is ",
+        "answer": "IBM",
+        "options": [
+            "Microsoft",
+            "IBM",
+            "Accenture",
+            "NTT Data Corporation"
+        ]
+    },
+    {
+        "numb": 30,
+        "question": "my namWhich of the following are major categories of organizations that produce software? e is ",
+        "answer": "all of the above",
+        "options": [
+            "hardware manufacturers",
+            "custom software producers ",
+            "all of the above ",
+            "packaged software producers "
+        ]
+    }
+]

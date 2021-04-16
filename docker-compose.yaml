@@ -1,0 +1,27 @@
+version: '3.3'
+services:
+  db:
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'exams'
+      MYSQL_USER: 'root'
+      MYSQL_PASSWORD: 'root'
+      MYSQL_ROOT_PASSWORD: 'root'
+    ports:
+      - '3306:3306'
+    expose:
+      - '3306'
+    volumes:
+      - disk-db:/var/lib/mysql
+
+  segment-history:
+    build: .
+    image: exam
+    restart: unless-stopped
+    container_name: exam
+    tty: true
+    ports:
+      - "8000:8000"
+volumes:
+  disk-db:

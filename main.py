@@ -11,6 +11,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import datetime
 import os
 from sdconfig import *
+import uvicorn
 
 app = FastAPI()
 origins = [
@@ -31,6 +32,11 @@ engine = create_engine(
     )
 )
 
+try:
+    engine.execute(createTable)
+except Exception as e:
+    print(e)
+    exit(0)
 
 def convertUploadedFileJson(fileName, fineOrigin):
     with open(f"{fileName}", "r") as f:
@@ -66,6 +72,7 @@ def insertIntoDB(dfjson):
         except Exception as e:
             print(f"Error {e}")
     return count
+
 
 @app.get("/")
 def read_root():
@@ -135,3 +142,7 @@ async def create_file(
     else:
         print("Can not delete the file as it doesn't exists")
     return {"fineName": file.filename, "NumberOfQuestions": numberOfItem}
+
+
+if __name__ == "__main__":
+    uvicorn.run(app, port=appPort, host=appHost)

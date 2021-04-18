@@ -19,7 +19,11 @@ var requestOptions = {
     redirect: 'follow'
 };
 
-fetch("http://127.0.0.1:8000/items/cplusplus?count=12", requestOptions)
+var url = new URL(window.location.href);
+var matrial = url.searchParams.get("matrial");
+var count = url.searchParams.get("count");
+
+fetch("http://127.0.0.1:8000/items/" + matrial + "?count=" + count, requestOptions)
     .then(response => response.text())
     .then(result => start(result))
     .catch(error => console.log('error', error));

@@ -13,6 +13,10 @@ import os
 from sdconfig import *
 import uvicorn
 import ast
+import logging
+
+log = logging.getLogger(__name__)
+log.setLevel(logging.INFO)
 
 app = FastAPI()
 origins = [
@@ -36,7 +40,7 @@ engine = create_engine(
 try:
     engine.execute(createTable)
 except Exception as e:
-    print(e)
+    log.info(e)
     exit(0)
 
 def convertUploadedFileJson(fileName, fineOrigin):
@@ -66,23 +70,25 @@ def insertIntoDB(dfjson):
             field["options"],
             field["material"],
         )
-        print("Inserting {},{}".format(field["numb"], field["material"]))
+        log.info("Inserting {},{}".format(field["numb"], field["material"]))
         try:
             engine.execute(query)
             count = count + 1
         except Exception as e:
-            print(f"Error {e}")
+            log.info(f"Error {e}")
     return count
 
 
 @app.get("/")
 def read_root():
+    log.info("Accessing Welcome page...")
     return {"Home": "Welcome to Exams API, check /docs for more info"}
 
 
 # Get info [Done]
 @app.get("/items/{item_id}")
 def read_item(item_id: str, count: Optional[int] = None):
+    log.info("Getting Info From DB")
     df = pd.read_sql(
         f"select * from exams where material = '{item_id}' ORDER BY RAND() limit {count};",
         con=engine,
@@ -95,6 +101,7 @@ def read_item(item_id: str, count: Optional[int] = None):
             dfJson[index]['options']=ast.literal_eval(x)
         except Exception as e:
             pass
+    log.info("Getting data done")
     return dfJson
 
 
@@ -109,6 +116,7 @@ def update_item(
     answer: str,
     material: str,
 ):
+    log.info("Put new question to the DB")
     obj = {
         "question": question,
         "options": [options1, options2, options3, options4],
@@ -116,13 +124,13 @@ def update_item(
         "material": material,
     }
     op = [options1, options2, options3, options4]
-    print(f"Trying to insert exams into material {material}")
+    log.info(f"Trying to insert exams into material {material}")
     query = f"""insert into exams (question,options,answer,material) values("{question}","{op}","{answer}","{material}")"""
     try:
         engine.execute(query)
     except Exception as e:
-        print(f"Error {e}")
-    print(f"Done from {question} material {material} ")
+        log.info(f"Error {e}")
+    log.info(f"Done from {question} material {material} ")
     return obj
 
 
@@ -130,6 +138,7 @@ def update_item(
 async def create_file(
     file: UploadFile = File(...),
 ):
+    log.info("Save bulk question to DB from file")
     """Upload file
 
     Args:
@@ -147,7 +156,8 @@ async def create_file(
     if os.path.exists(fileName):
         os.remove(fileName)
     else:
-        print("Can not delete the file as it doesn't exists")
+        log.info("Can not delete the file as it doesn't exists")
+    log.info("Done file upload")
     return {"fineName": file.filename, "NumberOfQuestions": numberOfItem}
 
 

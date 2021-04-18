@@ -3,10 +3,11 @@ services:
   db:
     image: mysql:5.7
     restart: always
+    container_name: db
     environment:
       MYSQL_DATABASE: 'exams'
-      MYSQL_USER: 'root'
-      MYSQL_PASSWORD: 'root'
+      MYSQL_USER: 'root1'
+      MYSQL_PASSWORD: 'root1'
       MYSQL_ROOT_PASSWORD: 'root'
     ports:
       - '3306:3306'

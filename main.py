@@ -12,6 +12,7 @@ import datetime
 import os
 from sdconfig import *
 import uvicorn
+import ast
 
 app = FastAPI()
 origins = [
@@ -88,6 +89,12 @@ def read_item(item_id: str, count: Optional[int] = None):
     )
     out = df.reset_index().to_json(orient="records")
     dfJson = json.loads(out)
+    for index,val in enumerate(dfJson):
+        try:
+            x=dfJson[index]['options']
+            dfJson[index]['options']=ast.literal_eval(x)
+        except Exception as e:
+            pass
     return dfJson
 
 

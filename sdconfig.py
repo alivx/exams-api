@@ -1,6 +1,6 @@
-databaseHost="db"
-databaseUser="root"
-databasePassword="root"
+databaseHost="db"   #"localhost"
+databaseUser="root1"   #"root1"
+databasePassword="root1"   #"root1"
 databaseName="exams"
 appPort=8000
 appHost="0.0.0.0"
